@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.banner {
+    background: var(--azul-degrade);
+    color: var(--branco);
+    text-align: center;
+    padding: 2.5em 2em;
+}
+
+.banner__titulo {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.banner__texto {
+    font-weight: 500;
+    margin: 1em 0;
+}
+
+.banner__pesquisa {
+    background-color: transparent;
+    border: 1px solid var(--branco);
+    color: var(--branco);
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+}
+
+.banner__pesquisa::placeholder {
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400px;
+    text-align: center;
+    color: var(--branco);
+    background: url("../img/Lupa.svg") no-repeat;
+    background-position: 1em;
+}
+
+.banner__titulo {
+    color: rgb(181, 129, 230);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(37, 134, 245);
+    color: rgb(37, 171, 224);
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+
+    .banner {
+        background: rgb(231, 128, 240);
+        -webkit-text-stroke-color: rgb(245, 252, 248);
+        -webkit-text-stroke-width: 1px;
+        font-weight: 500;
+    }
+
+    .banner__titulo {
+        font-size: 22px;
+    }
+
+
+}
+
+
+@media screen and (min-width: 1728px) {
+
+    .banner {
+        background-color: rgb(172, 127, 255);
+
+    }
+
+    .banner__titulo {
+        color: rgb(146, 207, 248);
+        font-size: 28px;
+    }
+
+    .banner__texto {
+        color: rgb(223, 229, 231);
+        font-size: 22px;
+    }
+
+    .banner__pesquisa {
+        color: rgb(153, 0, 255);
+
+    }
